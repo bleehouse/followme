@@ -27,5 +27,12 @@ public class GreetingController {
     public ResponseEntity<Greeting> hello(){
         return new ResponseEntity<Greeting>(greetingService.getGreeting(), HttpStatus.OK);
     }
+
+    @RequestMapping(value="/echo", method = RequestMethod.GET)
+    public ResponseEntity<String> echo() {
+        String echo  = "echo";
+        return new ResponseEntity<String>(echo, HttpStatus.OK);
+    }
+
 }
 
