@@ -1,4 +1,4 @@
-package com.bleehouse.me;
+package com.bleehouse;
 
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.ApplicationListener;

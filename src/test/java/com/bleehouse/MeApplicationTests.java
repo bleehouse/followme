@@ -1,4 +1,4 @@
-package com.bleehouse.me;
+package com.bleehouse;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
