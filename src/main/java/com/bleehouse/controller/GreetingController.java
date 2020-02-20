@@ -25,7 +25,7 @@ public class GreetingController {
 
     @RequestMapping(value="/hello", method = RequestMethod.GET)
     public ResponseEntity<Greeting> hello(){
-        return new ResponseEntity<>(greetingService.getGreeting(), HttpStatus.OK);
+        return new ResponseEntity<Greeting>(greetingService.getGreeting(), HttpStatus.OK);
     }
 }
 
